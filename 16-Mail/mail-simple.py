@@ -9,6 +9,7 @@ smtp.login("niecspi", "*Uncommon##")
 msg = "Hello!" 
 try:
     smtp.sendmail("niecspi@gmail.com","trainer.gkattri@gmail.com",msg)
+    #sendmail(from,to,message)
     print("Email Sent Successfully")
 except:
     print("Coudln't Send Email")
